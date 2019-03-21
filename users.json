@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "Bonnie", "year": 1, "faculty": "engineering" },
+    { "id": 2, "name": "Irwin", "year": 2, "faculty": "arts" },
+    { "id": 3, "name": "Kelsie", "year": 3, "faculty": "science" },
+    { "id": 4, "name": "Cristopher", "year": 4, "faculty": "economics" },
+    { "id": 5, "name": "Savanna", "year": 5, "faculty": "architecture" }
+  ]
+}
