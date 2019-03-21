@@ -17,10 +17,10 @@ const takeLog = Math.log;
 const exponential = Math.exp;
 exponential(takeLog(power2(multiply2(add5(1)))));
 
-// compose(
-//   exponential,
-//   takeLog,
-//   power2,
-//   multiply2,
-//   add5
-// )(1);
+compose(
+  exponential,
+  takeLog,
+  power2,
+  multiply2,
+  add5
+)(1);

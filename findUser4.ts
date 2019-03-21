@@ -13,8 +13,6 @@ const findUser = (predicate: Predicate) => (condition: any) => (
   }
 };
 
-const kan = "kan";
-
 const findUserById = findUser((id, user) => user.id === id);
 
 const findUserByName = findUser((name, user) => user.name === name);
