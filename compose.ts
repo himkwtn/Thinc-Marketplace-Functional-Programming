@@ -1,11 +1,8 @@
-import { curriedAdd } from "./currying";
-
 export const compose = (...functions: Function[]) => input => {
-  const func = functions.slice(-1)[0];
-  const rest = functions.slice(0, -1);
+  const func = functions.pop();
   const result = func(input);
-  if (rest.length === 0) return result;
-  return compose(...rest)(result);
+  if (functions.length === 0) return result;
+  return compose(...functions)(result);
 };
 
 const add5 = a => a + 5;

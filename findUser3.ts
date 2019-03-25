@@ -8,7 +8,6 @@ const findUser = (predicate: Predicate) => (users: User[]) => {
       return user;
     }
   }
-  return undefined;
 };
 
 const findUserById = (id: number) => findUser(user => user.id === id);
